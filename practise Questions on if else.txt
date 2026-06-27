@@ -1,0 +1,41 @@
+
+Practise Questions for java batch :
+ 
+Write a program for employee salary calculation:
+Basic salary
+HRA = 20%
+DA = 50%
+If salary > 50,000 → bonus 10%
+Else → bonus 5%
+
+Write a program to build a menu-driven ATM system using switch:
+1 → Check Balance
+2 → Deposit
+3 → Withdraw
+4 → Exit
+(Use if-else inside switch for validation like insufficient balance)
+
+Write a program to check whether a person is eligible for loan:
+Age ≥ 21
+Salary ≥ 25,000
+CIBIL score ≥ 700
+
+Write a program for ticket booking system:
+1 → Silver (₹100)
+2 → Gold (₹200)
+3 → Platinum (₹300)
+Apply discount using if-else:
+Students → 10% discount 	
+
+Write a program for user role system:
+1 → Admin
+2 → Manager
+3 → Employee
+Print permissions using switch
+
+Write a program to simulate mobile recharge system:
+
+1 → Data Pack
+2 → Talktime
+3 → Combo Pack
+Apply GST (18%) using if-else
