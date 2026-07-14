@@ -1,0 +1,50 @@
+Practise Session : 
+
+
+ATM System
+Create a method checkBalance() that displays account balance.
+Create a method withdrawAmount(double amount) to deduct balance.
+Student Result
+Create a method calculatePercentage(int m1, int m2, int m3) that returns percentage.
+Mobile Recharge
+Create a method recharge(double amount) that prints success message.
+Temperature Converter
+Create a method celsiusToFahrenheit(double c) and return converted value.
+Login System
+Create a method login(String username, String password) that returns true/false.
+
+
+E-commerce Discount
+Method calculateDiscount(double price) returns final price after discount.
+Employee Salary
+Method calculateSalary(double basic) returns salary after HRA & DA.
+Bank Interest
+Method calculateInterest(double principal, double rate, int time).
+Food Ordering App
+Method placeOrder(String item, int quantity) that prints bill.
+Electricity Bill
+Method calculateBill(int units) returns total bill amount.
+
+
+Online Voting System
+Method vote(int age) → allow only if age ≥ 18.
+Ride Booking App
+Method calculateFare(double distance).
+Password Strength Checker
+Method checkPassword(String password) → return strong/weak.
+Library System
+Method issueBook(String bookName, boolean isAvailable).
+Shopping Cart Total
+Method calculateTotal(double price1, double price2, double price3).
+
+
+Find Maximum Number
+Method findMax(int a, int b, int c).
+Prime Number Checker
+Method isPrime(int num) → return true/false.
+Palindrome Checker
+Method isPalindrome(int num).
+Even/Odd Counter
+Method countEvenOdd(int[] arr).
+Grade Calculator
+Method getGrade(int marks) → return A/B/C/D.
