@@ -1,0 +1,111 @@
+Practise Question base on OOP :  
+
+ATM Machine System
+
+Design:
+
+Abstract class: Account
+Subclasses: Savings, Current
+Interface: Transaction
+Encapsulation for PIN & balance
+Override withdrawal rules
+Use final for security methods
+
+
+ Movie Ticket Booking System
+
+Create:
+
+Abstract class: User
+Subclasses: Customer, Admin
+Interface: Booking
+Encapsulation for ticket details
+Override booking logic (online/offline)
+
+
+ Library Management System
+
+Design:
+
+Abstract class: User
+Subclasses: Student, Librarian
+Interface: IssueBook
+Encapsulation for book records
+Override fine calculation
+
+
+ Online Exam System
+
+Create:
+
+Abstract class: User
+Subclasses: Student, Admin
+Interface: Exam
+Encapsulation for marks
+Override result calculation
+
+
+ Restaurant Management System
+
+Design:
+
+Abstract class: Person
+Subclasses: Chef, Waiter
+Interface: OrderService
+Encapsulation for order details
+Override order handling
+
+
+ Social Media App (Instagram-like)
+
+Create:
+
+Abstract class: User
+Subclasses: Creator, Viewer
+Interface: PostActions
+Encapsulation for posts
+Override like/comment behavior
+
+
+ Parking Management System
+
+Design:
+
+Abstract class: Vehicle
+Subclasses: Car, Bike, Truck
+Interface: Parking
+Encapsulation for slot details
+Override parking charges
+
+
+ Online Banking App (Advanced)
+
+Create:
+
+Abstract class: User
+Subclasses: Customer, Manager
+Interface: Transaction
+Encapsulation for account data
+Override transfer methods
+Use static for bank name
+
+ Courier Delivery System
+
+Design:
+
+Abstract class: Package
+Subclasses: Standard, Express
+Interface: DeliveryService
+Encapsulation for package details
+Override delivery time calculation
+
+
+ Smart Shopping Cart System
+
+Create:
+
+Abstract class: User
+Subclasses: Customer, Guest
+Interface: CartOperations
+Encapsulation for cart items
+Override discount calculation--
