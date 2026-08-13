@@ -1,0 +1,57 @@
+Day 2 Multithreading : 
+
+Thread Class
+
+Thread is a class present in the java.lang package.
+To create a thread, we extend the Thread class.
+We must override the run() method.
+The thread starts when we call the start() method.
+
+
+Runnable Interface 
+
+Runnable is an interface in java.lang.
+We implement Runnable interface.
+We override the run() method.
+Then we pass the object to a Thread object.
+
+
+
+Feature	                              wait()                    	 sleep()
+
+Package/Class	             Method of Object class                     Method of Thread class
+Purpose	                     Used for inter-thread communication	Used to pause a thread for specific time
+Lock Release                 Releases the lock	                        Does not release the lock
+Synchronization	             Must be used inside synchronized         	Can be used anywhere
+Wake Up	By                   notify() or notifyAll()	                Automatically after time completes
+
+
+
+
+
+
+Synchronization in java : 
+
+
+Synchronization in Java is a mechanism used to control the access of multiple threads to shared resources.
+When multiple threads try to access the same resource (object, method, or variable) at the same time, it may create data inconsistency. Synchronization ensures that only one thread can access the critical section at a time.
+Synchronization is part of the Java multithreading concept.
+
+
+When multiple threads work on the same data, problems like race condition can occur.
+
+Example:
+
+Two threads withdrawing money from the same bank account.
+Thread1 -> withdraw 500
+Thread2 -> withdraw 500
+Balance = 500
+
+Without synchronization both threads may withdraw money incorrectly.
+So synchronization ensures:
+
+Data consistency
+Thread safety
+Controlled access to shared resources
+
+
