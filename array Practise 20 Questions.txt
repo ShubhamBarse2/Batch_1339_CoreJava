@@ -1,0 +1,134 @@
+
+Practise Programs based on Array : 
+
+Write a program to declare and initialize a 1D array of integers.
+Write a program to print all elements of a 1D array.
+Write a program to find the length of a 1D array.
+Write a program to find the sum of all elements in a 1D array.
+Write a program to find the average of elements in a 1D array.
+Write a program to find the maximum element in a 1D array.
+Write a program to find the minimum element in a 1D array.
+Write a program to search an element in a 1D array.
+Write a program to count even and odd numbers in a 1D array.
+Write a program to copy elements from one array to another.
+Write a program to reverse a 1D array.
+Write a program to sort a 1D array in ascending order.
+Write a program to sort a 1D array in descending order.
+Write a program to find duplicate elements in a 1D array.
+Write a program to remove duplicate elements from a 1D array.
+Write a program to count frequency of each element in a 1D array.
+Write a program to find the second largest element in a 1D array.
+Write a program to find the second smallest element in a 1D array.
+Write a program to merge two 1D arrays.
+Write a program to check whether a 1D array is a palindrome.
+
+
+
+
+
+
+
+ref code : 
+
+
+
+
+package com.jbk;
+
+public class B {
+
+	public static void main(String[] args) {
+
+//		int[] arr = { 20, 11, 40, 51, 35, 66, 67 };
+
+//		for (int i = 0; i < arr.length; i++) {
+//         System.out.println(arr[i]);
+//		}
+
+//		System.out.println(arr.length);
+//		System.out.println(arr[5]);
+
+//		reverse 
+
+//		for (int i = arr.length - 1; i >= 0; i--) {
+//			System.out.println(arr[i]);
+//		}
+
+		//
+//		for (int i = 0; i < arr.length; i++) {
+//			if (i % 2 == 1) {
+//				System.out.println(arr[i]);
+//			}
+//		}
+
+//		int even = 0;
+//		int odd = 0;
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			if (arr[i] % 2 == 0) {
+//				even++;
+//			} else {
+//				odd++;
+//			}
+//		}
+//		System.out.println("Even No -->" + even);
+//		System.out.println("Odd No -->" + odd);
+
+		// sum
+
+//		int sum = 0;
+//		for (int i = 0; i < arr.length; i++) {
+//			sum += arr[i];
+//		}
+//
+//		System.out.println(sum);
+
+		// Smallest Element
+
+//		int[] arr = { 20, 11, 40, 51, 35, 66, 67 };
+//
+//		int min = arr[0];
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			if (min > arr[i]) {
+//				min = arr[i];
+//			}
+//		}
+//
+//		System.out.println(min);
+
+//		Largest
+		int[] arr = { 20, 11, 40, 51, 35, 66, 67 };
+//
+//		int max = arr[0];
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			if (max < arr[i]) {
+//				max = arr[i];
+//			}
+//		}
+//
+//		System.out.println(max);
+
+		// find/search
+
+//		int search = 6;
+//		boolean found = false;
+//
+//		for (int i = 0; i < arr.length; i++) {
+//			if (arr[i] == search) {
+//				found = true;
+//			}
+//		}
+//		if (found) {
+//			System.out.println("Element Found ...!");
+//		} else {
+//			System.out.println("NOT FOUND ...!");
+//		}
+
+	}
+
+}
+
+
+ 
